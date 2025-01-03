@@ -1,0 +1,29 @@
+/*You are given a matrix 'MATRIX' of dimension 'N' x 'M'. Your task is to make all the elements of row 'i' and column 'j' equal to 0 if any element in the ith row or jth column of the matrix is 0.*/
+//brute force solution:If there is a zero go across the entire row and column mark everything apart 0 as -1
+//ones iteration is done, iterate ones again and mark all -1's as 0
+//better solution: create a column array of m size and create a row array of n size initially mark everything as zero and now start itaration
+//dont do anything if there is one when we find zero,mark the new array of row and column as 1
+//ones iteration is done reiterate through the matrix if column array or row array or both are 1 then make element in original array as zero otherwise keep it as it is 
+/* col[m]=0  row[n]=0
+for(i=0;i<n;i++){
+for(j=0->m){
+if(arr[i][j]==0){
+row[i]=1;
+col[i]=1;
+}
+}
+}
+for(i=0->n){
+for(j=0->m){
+if(row[i] == 1 || col [j] ==1)
+{
+a[i][j] =0;
+}
+}
+return matrix;
+}
+
+
+*/
+
+/*optimal solution: */
