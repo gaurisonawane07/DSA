@@ -1,6 +1,6 @@
 /*Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.*/
 
-//brute force: pick up an integer and iterate through the array and find if the element occursis more then n/3 times
+//brute force: pick up an integer and iterate through the array and find if the element occurs is more then n/3 times
 //better solution : we are using hashmap
 //take pair of number and count in the hashmap if first number is appear twice go ahead and increase the count
 //ones you iterate through the entire array your hashmap wiill contain every unique element and its count
