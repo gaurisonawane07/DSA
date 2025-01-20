@@ -5,6 +5,7 @@ Notice that the solution set must not contain duplicate triplets.*/
 
 //BRUTE FOrce CODE
 #include<bits/stdc++.h>
+using namespace std;
 class Solution {
 public:
     vector<vector<int>> threeSum(vector<int>& nums) {
@@ -13,7 +14,7 @@ public:
             for(int j = i+1;j<nums.size();j++){
                 for(int k = j+1;k<nums.size();k++){
                     if(nums[i] + nums[j] + nums[k] == 0);
-                    vector<int> temp = {num[i],num[j],num[k]};
+                    vector<int> temp = {nums[i],nums[j],nums[k]};
                     sort(temp.begin(),temp.end());
                     st.insert(temp);
                 }
