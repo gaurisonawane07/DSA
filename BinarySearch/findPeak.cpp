@@ -6,7 +6,8 @@ You must write an algorithm that runs in O(log n) time.*/
 //optimal approach :
 //for this we have to check if the element is greaer than its neighbouring two elements we use binary search approach for this
 
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
 using namespace std;
 class Solution {
     public:

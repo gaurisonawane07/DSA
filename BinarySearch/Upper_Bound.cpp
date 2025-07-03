@@ -6,7 +6,8 @@
 //APPROACH
 //using binary search take low pointer at index 0 and high at last index
 
-#include <bits/stdc++.h>
+#include <iostream>
+#include<vector>
 using namespace std;
 
 int binarySearch(vector<int> arr, int target) {

@@ -5,7 +5,8 @@
 //we have to sorted array as each row so we have to find first index of occurance 
 //after finding the lower bound, find the occurances of one by simply subtracting last index from first occuring index
 
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
 using namespace std;
 int lowerBound(vector<int> arr,int n,int x){
     int low = 0;
