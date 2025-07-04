@@ -5,7 +5,6 @@ Note:
 You can reorder the array to form a sequence.*/
 
 //Brute force approach: staart iterating from first element anf find its consecutive next then start from second element and fine its consecutive next
-
 /*OPTIMAL SOLUTION: 
 1.use an unordered set to store all elements of the array for 0(1) lookup
 2.for each element,check if it is a start of a sequence(i.e. it-1 is not in the set)
