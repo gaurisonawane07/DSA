@@ -57,4 +57,32 @@ int main()
     return 0;
 }
 
+// the above solution will be optimal if the array contains negatives also
+//but if the array contains only  positives and zeros then the optimal solution will be by using two pointers 
+
+#include <iostream>
+#include<vector>
+#include<map>
+using namespace std;
+
+int getLongestSubarray(vector<int>& a, long long k) {
+    int left = 0, right=0;
+    long long sum = a[0];
+    int maxlen = 0;
+    int n = a.size();
+    while(right<n){
+        while(left<=right && sum>k){
+            left -= sum;
+            left++;
+        }
+        if(sum == k){
+            maxlen = max(maxlen,right-left+1);
+        }
+        right++;
+        if(right<n){
+            sum += a[n];
+        }
+        return maxlen;
+    }
+}
 
