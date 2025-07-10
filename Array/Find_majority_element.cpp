@@ -25,6 +25,8 @@ int majorityElement(vector<int> v){
 //take 1st element and make count 1
 //take 2nd element if second element is equal to first increment count otherwise decrease count
 //when in an array count is 0 then again take next element and start count from next element
+//this is moose voting algorithm after applying this moose voting algorithm we get one element
+//again iterate through the array to find if this element is majority or not and return that element
 
 #include<iostream>
 #include<vector>
