@@ -6,7 +6,7 @@ class Solution {
 public:
     void setZeroes(vector<vector<int>>& matrix) {
        if (matrix.empty() || matrix[0].empty()) {
-            return; // Handle empty matrix case
+            return; 
         }
 
         int R = matrix.size();
