@@ -6,7 +6,9 @@ Notice that the solution set must not contain duplicate triplets.*/
 //take three pointers i,j,k , check if(arr[i]+arr[j]+arr[k])
 
 //BRUTE FOrce CODE
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
+#include<algorithm> 
 using namespace std;
 class Solution {
 public:
@@ -31,7 +33,10 @@ public:
 //i+j+k = 0
 //k= -(i+j)
 //replace last for loop
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
+#include<set>
+#include<algorithm> 
 using namespace std;
 class Solution{
     public:
@@ -59,7 +64,9 @@ class Solution{
 //optimal solution
 //first sort the entire array
 //using two pointer approach
-#include<bits/stdc++.h>
+#include<iostream>
+#include<vector>
+#include<algorithm> 
 using namespace std;
 class Solution{
     public:
