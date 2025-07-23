@@ -46,7 +46,11 @@ Count the occurrences of both candidates in a second loop.
 4.Check the Threshold:
 If either candidate appears more than n/3 times, add it to the result.
 */
-#include<bits/stdc++.h>
+#include<iostream>
+#include<map>
+#include<vector>
+#include<algorithm>
+using namespace std;
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
