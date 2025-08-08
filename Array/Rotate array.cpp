@@ -1,18 +1,17 @@
 #include<iostream>
 #include<vector>
 using namespace std;
+
 class Solution {
-public:
-    void rotate(vector<vector<int>>& matrix) {
-        int n = matrix.size();
-        for(int i = 0;i<n;i++){
-            for(int j = i+1;j<n;j++){
-                swap(matrix[i][j],matrix[j][i]);
-            }
-        }
-        for(int i = 0;i<n;i++){
-            //reverse every row
-            reverse(matrix[i].begin(),matrix[i].end());
-        }
+  public:
+
+    // Function to rotate an array by d elements in counter-clockwise direction.
+    void rotateArr(vector<int>& arr, int d) {
+        int n = arr.size();
+        d = d%n;
+        reverse(arr.begin(),arr.begin()+d);
+        reverse(arr.begin()+d,arr.end());
+        reverse(arr.begin(),arr.end());
+        
     }
 };
