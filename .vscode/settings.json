@@ -4,5 +4,6 @@
         "ostream": "cpp",
         "xutility": "cpp"
     },
-    "liveServer.settings.port": 5568
+    "liveServer.settings.port": 5568,
+    "C_Cpp.errorSquiggles": "enabled"
 }

@@ -91,5 +91,5 @@ int main(){
     // head = removeHead(head);
     Node* head = createLinkedList(arr);
     head = removeKelement(head , 4);
-    print(head) ;
+    print(head);
 }
